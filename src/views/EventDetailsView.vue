@@ -7,6 +7,7 @@ const props = defineProps({
     required: true,
   },
 })
+
 const event = ref(null)
 
 onMounted(() => {
